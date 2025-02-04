@@ -1,17 +1,15 @@
 # yogas
-Step 1: ER Diagram and Database Design
-Entities:
+##Step 1: ER Diagram and Database Design
+###Entities:
 User (Stores user details)
 Enrollment (Tracks user enrollment and payments)
 Batch (Contains available time slots)
-ER Diagram:
-I'll describe it here and provide the SQL script.
-
+###ER Diagram
 User (id, name, age, email, phone)
 Batch (id, batch_time)
 Enrollment (id, user_id, batch_id, month, payment_status, payment_date)
 
-SQL Script:
+##SQL Script:
 CREATE TABLE User (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
