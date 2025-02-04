@@ -1,4 +1,3 @@
-// models/Enrollment.js
 const mongoose = require('mongoose');
 
 const EnrollmentSchema = new mongoose.Schema({

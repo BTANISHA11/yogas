@@ -1,7 +1,5 @@
-// src/components/BatchSelector.js
 import React from 'react';
-import './BatchSelector.css'; // Import the CSS file
-
+import './BatchSelector.css'; 
 const BatchSelector = ({ batches, setBatch }) => {
     return (
         <div className="form-group">

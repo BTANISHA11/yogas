@@ -1,8 +1,7 @@
-// src/components/AdmissionForm.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import BatchSelector from './BatchSelector';
-import './AdmissionForm.css'; // Import the CSS file
+import './AdmissionForm.css'; 
 
 const AdmissionForm = () => {
     const [name, setName] = useState('');
